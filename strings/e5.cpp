@@ -32,8 +32,10 @@ int main()
             {
                 saida[i] = chave[j];
                 cout << saida[i];
-            } else if(entrada[i] == ' '){
-                cout << " " ;
+            }
+            else if (entrada[i] == ' ')
+            {
+                cout << " ";
                 j = 26;
             }
         }
